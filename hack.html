@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackerman</title>
+  <link rel="stylesheet" href="hack.css">
+</head>
+<body>
+  <div class="terminal">
+    <h1>Hackerman Console</h1>
+    <div class="inp">
+    <input type="text" id="userinput" placeholder="Enter your target....."/> 
+      <div>
+          
+        <input type="checkbox" id="phone"><label>Phone no</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="insta"><label>Insta id</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="whole"><label>Whole phone</label>
+    </div>
+    </div>
+    <div class="d">
+    <button class="sub" onclick="starthack()">Hack now</button>
+</div>
+    <div id="output"></div>
+    <div class="loading-bar">
+      <div class="progress"></div>
+    </div>
+  </div>
+  <script src="hack.js"></script>
+</body>
+</html>
